@@ -262,8 +262,8 @@ importers:
         specifier: 2.1.1
         version: 2.1.1(mongoose@8.7.0)
       mongoose-lean-virtuals:
-        specifier: 1.0.0
-        version: 1.0.0(mongoose@8.7.0)
+        specifier: 1.1.0
+        version: 1.1.0(mongoose@8.7.0)
       mongoose-paginate-v2:
         specifier: 1.9.0
         version: 1.9.0(mongoose@8.7.0)
@@ -5000,12 +5000,6 @@ packages:
     engines: {node: '>= 14'}
     peerDependencies:
       mongoose: '>= 7.5.0'
-
-  mongoose-lean-virtuals@1.0.0:
-    resolution: {integrity: sha512-ZwfhiDv8LGHvjubLGT9RzsbHFgBnpmrRHTQo0gXaLbRMxZy1HFZ/mBbmKNWTSu3q3GMGB4kIXXCZTDAb2nwf7g==}
-    engines: {node: '>=16.20.1'}
-    peerDependencies:
-      mongoose: '>=5.11.10'
 
   mongoose-lean-virtuals@1.1.0:
     resolution: {integrity: sha512-QCuAvPUTGzUMjbvWqhA+3hXX7hP0PPJOW+hm50KN3gTPM89Uan/wrFyCfvsqW9giAGemtIFsBrZwiogmu2gxmA==}
@@ -12093,11 +12087,6 @@ snapshots:
     dependencies:
       mongoose: 8.7.0
       mpath: 0.9.0
-
-  mongoose-lean-virtuals@1.0.0(mongoose@8.7.0):
-    dependencies:
-      mongoose: 8.7.0
-      mpath: 0.8.4
 
   mongoose-lean-virtuals@1.1.0(mongoose@8.7.0):
     dependencies:
