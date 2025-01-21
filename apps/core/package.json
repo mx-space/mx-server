@@ -49,7 +49,7 @@
   },
   "optionalDependencies": {
     "mongodb-memory-server": "^10.1.2",
-    "redis-memory-server": "^0.11.0"
+    "redis-memory-server": "^0.12.0"
   },
   "dependencies": {
     "@algolia/client-search": "^4.22.1",
